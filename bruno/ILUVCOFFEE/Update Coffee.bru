@@ -1,0 +1,23 @@
+meta {
+  name: Update Coffee
+  type: http
+  seq: 6
+}
+
+patch {
+  url: {{host}}/coffees/:id
+  body: json
+  auth: none
+}
+
+params:path {
+  id: 680e51f4f1f182904877a9f9
+}
+
+body:json {
+  {  "name": "CrazyRust Roast",
+    "flavors": [
+      "non sense"
+    ]
+  }
+}

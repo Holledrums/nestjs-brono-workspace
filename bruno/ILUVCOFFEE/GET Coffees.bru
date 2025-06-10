@@ -1,0 +1,20 @@
+meta {
+  name: GET Coffees
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{host}}/coffees/
+  body: none
+  auth: none
+}
+
+params:query {
+  ~offset: 1
+  ~limit: 2
+}
+
+headers {
+  Authorization: d502a190-d2f1-426f-99ca-fae3ded97a60
+}

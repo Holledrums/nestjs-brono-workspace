@@ -1,0 +1,24 @@
+meta {
+  name: Create Coffee
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{host}}/coffees/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "new CrazyRust Roast",
+    "brand": "Nest.Cafè",
+    "flavors": [
+      "sunflower",
+      "cherry",
+      "caramel",
+      "chocolate"
+    ]
+  }
+}
