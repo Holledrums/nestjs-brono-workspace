@@ -1,3 +1,6 @@
 [submodule "backend/nestjs-fundamentals-iluvcoffee"]
 	path = backend/nestjs-fundamentals-iluvcoffee
 	url = https://github.com/Holledrums/nestjs-fundamentals-iluvcoffee.git
+[submodule "backend/nestjs-micro-service/virtual-facility"]
+	path = backend/nestjs-micro-service/virtual-facility
+	url = https://github.com/Holledrums/virtual-facility.git
